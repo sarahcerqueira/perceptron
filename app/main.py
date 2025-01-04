@@ -14,7 +14,6 @@ class Main:
         perceptron = Perceptron()
         perceptron.train(x_train, y_train, LEARNING_RATE)
         perceptron.test(x_test, y_test)
-        print(type(x_train))
 
 main= Main()
 main.run()
